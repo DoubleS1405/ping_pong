@@ -12,7 +12,11 @@
 
 # 2차 (개발)버전: 
 ## 지원할 다른 프로토콜에 대한 조사 및 구현
-## 지원이 불가능한 특정 프로토콜에 대한 커스터마이징
+  - Snmp
+  - tcp socket (connect 여부)
+  - tcp socket (특정 패킷의 send/recv. byte단위의 customize)
+  - https 의 ssl 인증서 유효성
+
 ## 알람 봇 추가 지원
   - telegram
   - discord
